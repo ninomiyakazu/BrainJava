@@ -3,7 +3,7 @@
    ³ú¸¦ÀÚ±ØÇÏ´Âjava
    Firstjava.java
  */
-package ³ú¸¦ÀÚ±ØÇÏ´Âjava;
+
 
 /**
  * @author Administrator
