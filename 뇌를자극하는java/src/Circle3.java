@@ -8,18 +8,18 @@
  * @author Administrator
  *
  */
-public class Circle2 {
+public class Circle3 {
      public int radius;
      public String name;
      
      //매개변수 없는 생성자 
-     public Circle2() {
+     public Circle3() {
         radius = 1;
         name = "";
      }   
      
      //매개변수를 가진 생성자
-     public Circle2(int r, String n) {
+     public Circle3(int r, String n) {
            radius = r;
            name = n;
  	}
@@ -32,7 +32,7 @@ public class Circle2 {
     //메인메소드
  	public static void main(String[] args) {
  		
- 		Circle2 pizza = new Circle2(10, "자바피자");
+ 		Circle3 pizza = new Circle3(10, "자바피자");
  		double pizza_area = pizza.getArea();	
  	    System.out.println(pizza.name + "의 면적은" + pizza_area);
  	/*	
