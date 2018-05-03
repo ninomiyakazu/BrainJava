@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class Calculator {
-      //¼Ó¼ºÇÊµå 
+      //ì†ì„±í•„ë“œ 
 	//int number1 = 0;
 	//int number2 = 0;
 	
-	//¸Ş¼Òµå(ÇÔ¼ö±â´É)
+	//ë©”ì†Œë“œ(í•¨ìˆ˜ê¸°ëŠ¥)
 	public int plus(int x, int y, int z)
 	{
 		int total = x +y+z;
@@ -14,7 +14,7 @@ public class Calculator {
 	public static void main(String[] args) {
 		
 		int num1, num2, num3;
-		System.out.println("¼¼°³ ¼ıÀÚ ÀÔ·Â");
+		System.out.println("ì„¸ê°œ ìˆ«ì ì…ë ¥");
 		 //Scanner scan= new Scanner(System.in);
 		Scanner scan = new Scanner(System.in);
 		    num1= scan.nextInt();
@@ -24,7 +24,7 @@ public class Calculator {
 		
 		
 		
-		//°´Ã¼»ı¼º
+		//ê°ì²´ìƒì„±
 		Calculator cal=new Calculator();
 		int result =cal.plus(num1,num2, num3);
 		System.out.println("result:"+result);
