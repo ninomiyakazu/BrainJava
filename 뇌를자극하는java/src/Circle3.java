@@ -14,14 +14,15 @@ public class Circle3 {
      
      //매개변수 없는 생성자 
      public Circle3() {
-        radius = 1;
-        name = "";
+        this.radius = 1;
+        this.name="";
+        //name = "";
      }   
      
      //매개변수를 가진 생성자
-     public Circle3(int r, String n) {
-           radius = r;
-           name = n;
+     public Circle3(int radius, String name) {
+           this.radius = radius;
+           name = name;
  	}
      
      //메소드 
