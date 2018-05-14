@@ -50,7 +50,7 @@ class JDBC_Person {
 	
     public static void main(String args[]) {
 
-    	Person[] persons = new Person[3]; //  배열객체 
+    	Person[] persons = new Person[5]; //  배열객체 
   
     	for(int i=0; i<persons.length; i++) {
     		persons[i] = new Person();  // 생성자 호출하여 배열레퍼런스 대입
@@ -157,5 +157,6 @@ class JDBC_Person {
    	
     }
 }
+
 
 
