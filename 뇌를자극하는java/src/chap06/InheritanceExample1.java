@@ -1,6 +1,6 @@
 package chap06;
 
-class Account {
+ class Account {
     	String accountNo;
 		String ownerName;
 		int balance;
@@ -62,6 +62,8 @@ class CheckingAccount extends Account {
 public class InheritanceExample1 {
 	
 	public static void main(String args[]) {
+		
+		
 		
 		CheckingAccount obj = new CheckingAccount("111-22-3333333" , "홍길동", 100000, "5555-6666-7777-8888"); //기본 생성자 
 		
